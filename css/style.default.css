@@ -6,10 +6,10 @@
 .heading:after {
   content: " ";
   display: block;
-  width: 100px;
+  width: 120px;
   height: 1px;
-  margin: 20px 0 20px;
-  background: auto;
+  margin: 10px 0 10px;
+  background: #313131;
 }
 
 /* SECTION COLOUR INVERSE */
@@ -26,6 +26,8 @@
 .section-inverse h6 {
   color: #fff;
   font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  line-height: 1.44;
 }
 
 .section-inverse .heading:after {
@@ -33,7 +35,7 @@
 }
 
 .box {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .text-bold {
   font-weight: 700;
@@ -56,7 +58,7 @@ body {
 } */
 
 section {
-  padding: 90px 0;
+  padding: 40px 0;
 }
 
 @media (max-width: 767.98px) {
@@ -68,7 +70,7 @@ section {
 
 
 .heading {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 /* HERO SECTION */
@@ -187,7 +189,12 @@ nav.navbar.sticky {
 .about img {
   border: 2px solid transparent;
   border-color: #bebebe;
-  max-width: 220px;
+  max-width: 300px;
+}
+
+.zoom {
+  transition: transform .6s;
+  margin: 0 auto;
 }
 
 
@@ -205,9 +212,14 @@ nav.navbar.sticky {
   margin-bottom: 10px;
 }
 
+/* Team */
 
-
-
+.team img {
+  border: 4px solid transparent;
+  border-color: #313131;
+  border-radius: 5px;
+  max-width: 300px;
+}
 /* Testimonials */
 
 .testimonials {
@@ -341,10 +353,16 @@ footer {
 .contact-line {
   line-height: 30px;
   padding-bottom: 5px;
+  letter-spacing: normal;
+  font-size: .9em;
+  font-family: sans-serif;
+  
+  font-style: normal;
 }
 
 .contact-line a {
-  color: #fff
+  color: #fff;
+  font-style: italic;
 }
 
 .social-icon {
@@ -537,7 +555,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #0d0d0d;
+  /* color: #0d0d0d; */
   text-decoration: underline;
 }
 
@@ -558,7 +576,7 @@ h6,
   font-weight: 700;
   line-height: 1.44;
   color: inherit;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: 0.2em;
 }
 
@@ -593,8 +611,9 @@ h6,
 }
 
 .lead {
-  font-size: 1.4375rem;
-  font-weight: 300;
+  font-size: 1.3em;
+  font-weight: 400;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .display-1 {
@@ -627,8 +646,9 @@ hr {
 
 small,
 .small {
-  font-size: 80%;
+  font-size: 1em;
   font-weight: 400;
+  font-weight: bolder;
 }
 
 mark,
