@@ -67,8 +67,6 @@ section {
   }
 }
 
-
-
 .heading {
   margin-bottom: 10px;
 }
@@ -185,7 +183,6 @@ nav.navbar.sticky {
 }
 
 /* ABOUT SECTION */
-
 .about img {
   border: 2px solid transparent;
   border-color: #bebebe;
@@ -214,15 +211,14 @@ nav.navbar.sticky {
 }
 
 /* Team */
-
 .team img {
   border: 4px solid transparent;
   border-color: #313131;
   border-radius: 5px;
-  max-width: 300px;
+  max-height: 210px;
 }
-/* Testimonials */
 
+/* Testimonials */
 .testimonials {
   padding: 60px 0;
   background: url("/img/books\ and\ pen.jpg") no-repeat;
@@ -244,7 +240,7 @@ nav.navbar.sticky {
 
 .team p {
   font-family: 'Montserrat', serif;
-  font-size: .92em;
+  font-size: .75em;
   font-weight: bolder;
   text-transform: uppercase;
   color: #000;
@@ -254,7 +250,9 @@ nav.navbar.sticky {
   letter-spacing: 0.1em;
   font-family:serif; 
   color: #1f0520;
-  font-size: 1.2em;
+  font-size: 1.1em;
+  font-family: 'Source Sans Pro';
+  font-weight: bolder;
  }
 
 
